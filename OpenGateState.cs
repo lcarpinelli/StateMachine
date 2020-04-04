@@ -16,7 +16,7 @@ namespace StateMachine
 
         public void Arrive()
         {
-            Console.WriteLine("Sei gia fermo puoi pagare, il pagamento è andato a buon fine");
+            Console.WriteLine("Sei gia fermo  puoi pagare, il pagamento è andato a buon fine");
             this.gate.ChangeState(new OpenGateState(this.gate));
         }
 
